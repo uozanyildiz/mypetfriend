@@ -1,0 +1,12 @@
+.slider {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.tooltip .tooltip-inner {
+  background-color: #95a5a9;
+}
+
+.tooltip .arrow::before {
+  border-top-color: rgb(145, 160, 164);
+}

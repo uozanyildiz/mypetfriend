@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/places/:type/:lat,:lng/:radius/",
+      "handler": "places.findPlace"
+    },
+    {
+      "method": "GET",
+      "path": "/places/nextPage/:token",
+      "handler": "places.getNextPage"
+    }
+  ]
+}
